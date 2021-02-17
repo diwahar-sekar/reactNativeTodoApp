@@ -5,7 +5,7 @@ import { StyleSheet, Text, View, TextInput} from 'react-native';
 
 export default function App() {
   
-  const[person,setPerson] = useState({name : 'Somu', gender:'N/A'});
+  const[person,setPerson] = useState({name : 'hunt', gender:'N/A'});
 
   return (
     <View style={styles.container}>
